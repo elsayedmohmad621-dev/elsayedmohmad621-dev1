@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>Mero's birthday</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    min-height: 100vh;
+    margin: 0;
+    direction: rtl;
+    overflow-x: hidden;
+}
+
+/* قلوب */
+.heart {
+    position: fixed;
+    bottom: -10px;
+    font-size: 20px;
+    animation: floatUp 6s linear infinite;
+    opacity: 0.8;
+}
+@keyframes floatUp {
+    0% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(-110vh); opacity: 0; }
+}
+
+.box {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 360px;
+    margin: 40px auto;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    animation: fadeIn 1s ease;
+}
+@keyframes fadeIn {
+    from {opacity:0; transform: translateY(20px);}
+    to {opacity:1; transform: translateY(0);}
+}
+
+h2 { color: #ff4d6d; }
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+button {
+    background: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.hidden { display: none; }
+
+.gallery img {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 10px;
+    animation: fadeIn 1.2s ease;
+}
+.caption {
+    font-size: 16px;
+    color: #ff4d6d;
+    margin: 12px 0 5px;
+}
+.long-text{
+    color:#333;
+    font-size:15px;
+    line-height:1.9;
+    text-align:right;
+    margin-bottom:20px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box" id="loginBox">
+    <h2>كل سنة وانتي طيبة يا مروه 💖</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">دخول</button>
+</div>
+
+<div class="box hidden" id="welcomeBox">
+    <h2>🎉 Happy Birthday Miro 🎂</h2>
+    <p>أحلى صور ليكي 💕</p>
+<audio src="Albumaty.Com_Group_Happy_Birth_Day.mp3" loop></audio>
+    <!-- الكلام قبل الصور -->
+    <div class="long-text">
+👊😂 عيد ميلاد صحبتى 💝 الجميله 😍 الجميله جداا 💝  
+بصي انا مش بعرف اكتب بوستات اعياد ميلاد وكده وارغي 😉  
+بس انتى تستاهلى كلام كتير ❤  
+
+كل سنه وقلبك ابيض زى ما هو 🎊❤  
+كل سنه وانتى معاايا ومع اللي بتحبيهم 😍😘  
+كل سنه وانتى طيبه يااارب وعبقال سنين جايه كتير وانتى محققه احلامك كلها 😍  
+
+انتى اختى وصحبتى ربنا يديمك نعمه في حياتى ❤  
+كل سنه وانتى طيبه يدودو 😍  
+وعبقال 100 مليون سنه وانتى بخير وسعاده 😗😗  
+
+ربنا يحميكي واشوفك حاجه كبيره بشمهندسه كده 😍❤  
+العشق يعنى البت الجدعه، البت الفرفوشه، العسل بزياده  
+بحبكككك ❤  
+
+I love you 💜  
+Happy Birthday 🌟🌟🌟  
+🙊🙉🙈 My Sister  
+🙊🙉🙈🌟💖 بعشقك 😍😚
+    </div>
+
+    <div class="gallery">
+
+        <div class="caption">كل سنة وانتي طيبة يا مروه 🌸 ضحكتك منورة الدنيا</div>
+        <img src="WhatsApp Image 2025-12-29 at 11.54.59 PM.jpeg">
+
+        <div class="caption">عيد ميلادك يا مروه مش يوم عادي 🎂</div>
+        <img src="WhatsApp Image 2025-12-29 at 11.55.01 PM.jpeg">
+
+        <div class="caption">مروه القمر 🌙 كل سنة وانتي أجمل</div>
+        <img src="WhatsApp Image 2025-12-29 at 11.55.03 PM.jpeg">
+
+        <div class="caption">ضحكة مروه تكفي العالم كله 💕</div>
+        <img src="WhatsApp Image 2025-12-29 at 11.55.11 PM.jpeg">
+
+        <div class="caption">في يوم زي ده اتولدت أحلى مروه 🎉</div>
+        <img src="WhatsApp Image 2025-12-29 at 11.55.13 PM.jpeg">
+
+        <div class="caption">يا بخت الأيام اللي فيها مروه 💖</div>
+        <img src="WhatsApp Image 2025-12-29 at 11.55.20 PM.jpeg">
+
+        <div class="caption">مروه مش بس اسم، دي حكاية 🥰</div>
+        <img src="WhatsApp Image 2025-12-29 at 11.57.24 PM.jpeg">
+
+        <div class="caption">عيد ميلاد سعيد يا بنت الأصول 🎈</div>
+        <img src="WhatsApp Image 2025-12-29 at 11.57.27 PM.jpeg">
+
+        <div class="caption">قريبة من القلب وبعيدة عن الزعل ❤️</div>
+        <img src="WhatsApp Image 2025-12-29 at 11.57.30 PM.jpeg">
+
+        <div class="caption">ربنا يجعل أيامك كلها أفراح يا مروه 🎂</div>
+        <img src="WhatsApp Image 2025-12-29 at 11.57.33 PM.jpeg">
+
+    </div>
+</div>
+
+<script>
+function login() {
+    var user = document.getElementById("username").value;
+    var pass = document.getElementById("password").value;
+
+    if (user === "Mero" && pass === "1/1") {
+        document.getElementById("loginBox").classList.add("hidden");
+        document.getElementById("welcomeBox").classList.remove("hidden");
+        startHearts();
+    } else {
+        alert("اليوزر نيم أو الباسورد غلط ❌");
+    }
+}
+
+function startHearts() {
+    setInterval(() => {
+        const heart = document.createElement("div");
+        heart.className = "heart";
+        heart.innerHTML = "❤️";
+        heart.style.left = Math.random() * 100 + "vw";
+        heart.style.fontSize = Math.random() * 20 + 15 + "px";
+        document.body.appendChild(heart);
+
+        setTimeout(() => heart.remove(), 6000);
+    }, 400);
+}
+</script>
+
+</body>
+</html>
